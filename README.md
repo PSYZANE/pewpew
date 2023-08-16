@@ -2,7 +2,7 @@
 incomplete space theme two-player shooter
 - well idea comes from combining that hockey mobile game and a space shooter
   
-# Future implementation idea list -
+# Future implementation idea list 
 - side by side shoot each other
 - may have power-ups
 - score scenario
