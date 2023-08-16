@@ -7,7 +7,6 @@ red_hit = pygame.USEREVENT + 2
 
 def handle_bullets(bullets_red, bullets_blue, red, blue):
     for bullet in bullets_red:
-        print('shoot')
         pygame.draw.rect(screen,'yellow',bullet)
         bullet.x += bullet_vel
         if blue.colliderect(bullet):
@@ -91,7 +90,6 @@ while True:
             if event.key == pygame.K_w:
                 player_v -= 7
             if event.key == pygame.K_SPACE and len(bullets_red) < max_bullet:
-                print('red shoot')
                 bullet = pygame.Rect(player_red.x + player_red.width//2, player_red.y + player_red.height/2, 5, 10)
                 bullets_red.append(bullet)
 
@@ -115,7 +113,6 @@ while True:
             if event.key == pygame.K_DOWN:
                 player_s += 7
             if event.key == pygame.K_RCTRL and len(bullets_blue) < max_bullet:
-                print('blue shoot')
                 bullet = pygame.Rect(player_blue.x + player_blue.width//2, player_blue.y + player_blue.height/2, 5, 10)
                 bullets_blue.append(bullet)
 
