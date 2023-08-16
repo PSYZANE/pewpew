@@ -9,4 +9,4 @@ incomplete space theme two-player shooter
 - MODE-1 -> limited number of lives
 - MODE-2 -> a goal to achieve to win && infinite life
 - MODE-3 -> limited time, highest score win
-- Peace out😎
+- Peace out✌😎
